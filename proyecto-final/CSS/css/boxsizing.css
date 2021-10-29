@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 5px;
+}
+
+.caja1 {
+    padding: 30px;
+}

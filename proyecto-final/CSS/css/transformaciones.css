@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+@keyframes color {
+    from {
+        background: #226fc1;
+    }
+    to {
+        background: #f9a03f;
+    }
+}
+
+@keyframes movimiento {
+    0% {
+        background: #9eb3c2;
+    }
+    25% {
+        background: #1C7293;
+        transform: rotate(45deg);
+    }
+    50% {
+        background: #065A82;
+        transform: rotate(90deg);
+    }
+    75% {
+        background: #1B3B6F;
+        transform: rotate(135deg);
+    }
+    100% {
+        background: #21295C;
+        transform: rotate(180deg);
+    }
+}
+
+.caja {
+    border-radius: 100%;
+    background: #21295c;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    transition: all 2s ease-out;
+    /* transform: translate(200px, 50px); */
+    /* transform: scale(1.1, 1.2); */
+    /* transform: rotate(70deg); */
+    /* transfoarm: skew(20deg, 20deg); */
+    /* animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    animation: movimiento 2s infinite linear;
+}
+
+
+/* Velocidad de Curva
+	ease - inicio lento, despues rapido y termina lento
+	linear - misma velocida de inicio a fin
+	ease-in - inicio lento
+	ease-out - final lento
+	ease-in-out - inicio lento y final lento
+	*/
+
+
+/* .caja:hover { */
+
+
+/* transform: scale(5, 1); */
+
+
+/* transform: rotate(180deg); */
+
+
+/* background: #9eb3c2; */
+
+
+/* } */
