@@ -10,7 +10,7 @@
 
 body{
   font-family: 'Pathway Gothic One', sans-serif;
-  color: #aaa;
+  color: rgb(211, 211, 211);
   padding: 5px;
     font-size: 16px;
     background: rgb(0, 0, 0);
@@ -30,22 +30,32 @@ body{
     color: #4bd5ee;
     font-weight: 400;
     letter-spacing: .1em;
-    background: rgb(7, 7, 7);
+    background: rgb(0, 0, 0);
 }
 
 
 .contenedor1 p {
 	margin-bottom:40px;
 }
-
+.contenedor .logo img {
+  width: 10px;
+  float: left;
+}
+.contendor .logo img{
+  border-radius: 10px;
+}
 header{
   width: 100%;
+  position: block;
   
 }
-
+.intro{
+  position: block;
+  text-align: center;
+  padding:10px;
+}
 header nav{
 width: 100%;
-
 margin-bottom: 10px;
 background-color: rgb(88, 92, 92);
 }
@@ -83,57 +93,87 @@ nav ul li a:hover {
   }
 
 
-.main{  
-    width: 80% auto;
+  .main{  
+    width: 90% auto;
+  }
+  .aside{  
+    width: 90% auto;
+  }
+
+
+.viajes img{
+    /*display: block;*/
+  position: inline;
+  width: 18%;
 }
 
-.aside{
-    width: 80%;
+.hobby img{
+  /*display: block;*/
+  position: inline;
+  width: 18%;
 }
+
+.chill img{
+    /*display: block;*/
+  position: inline;
+  width: 18%;
+}
+
 
 .imagen video {
   width: 100%;
-  width: 75px auto;
+  width: 1000px;
   min-width: 230px;
   max-width: 1200px;
   min-height: 300px;
   max-height: 480px;
 }
 
+
 main.articulos{
-    padding: 5px;
+  padding: 5px;
 }
 
 main.articulos article h2{
-    margin-bottom: 5px;
-    color: #424242;}
+  margin-bottom: 5px;
+  color: #424242;}
 
 main.articulos article p{
-        margin-bottom: 10px;
-        }   
+      margin-bottom: 10px;
+      }   
+.centrar{
+display:inline-block;
+width: 475px;
+background-color: rgb(59, 59, 59);
+padding: 10px;
+justify-content: center;
+text-align: center;
+margin:0 auto;
 
-.centrado{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            text-align: center;
-            color: rgb(202, 199, 29, 0.925);
-            font-weight: 800;
-            font-size: x-large;
-            transform: translate(-50%, -50%);
-        }
-
-
-
+      }
+.main.DERECHA{
+  float: left;
+  padding:1px;
+  justify-content: center;
+  text-align: center;
+  }
+        
+.main.IZQUIERDA{
+ float: left;
+  padding:1px;
+  justify-content: center;
+  text-align: center;
+ 
+      }
 ul{
-            list-style-type: none;
-            text-align: center;
-            justify-content: center;
-          }
+          list-style-type: none;
+          text-align: center;
+          justify-content: center;
+        }
 footer {
             width: 100%;
             padding: 10px;
-            margin: 1 auto;
+            margin: 1;
             background-color:rgb(88, 92, 92);
             padding: 15px 0;
           }
@@ -143,6 +183,7 @@ footer ul {
           }
 footer ul li {
             display: inline-block;
+            margin: auto;
           }
 footer ul li a {
             display: block;
@@ -153,21 +194,14 @@ footer ul li a {
             text-transform: uppercase;
             margin: 0 10px;
           }
-footer ul li a,
-footer ul li a:after,
-footer ul li a:before {
-            transition: all .5s;
-          }
-nav ul li i:hover {
-            color: rgb(216, 216, 216);
-          }
-table {
-            table-layout: fixed;
-            width: 100%;
-            border-collapse: collapse;
-            text-align: center;
-          }
-p{
-  display: block;
-  font-size: small;
-}
+ .bio img{
+            width: 150px;
+            max-width: 150px;
+            float: left;
+            padding: 5px;
+          
+            
+              }
+        
+
+          

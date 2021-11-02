@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
-    <link rel="stylesheet" href="CSS/estilosb.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
     <script src="https://kit.fontawesome.com/64d88391ec.js" crossorigin="anonymous"></script>
-</head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src=scripts/external.js></script>
+    <script src="scripts/main.js"></script>
 <header>
-    <img src="img/watt.png" alt="">
-    <h3>Introduccion a la programación</h1>
-    <nav>
+    <div class="contendor">
+    <div class="logo">
+        <img src="img/watt.jpg" alt="Logo">    
+        <h1 class='intro'>INTRODUCCIÓN A LA PROGRAMACIÓN WEB</h1>
+    </div>
+    <nav class="menu">
         <ul>
             <li><a href="./index.html">Inicio</a></li>
             <li><a href="./biografia.html">Biografía</a></li>
             <li><a href="./galeria.html">Galería</a></li>
         </ul>
     </nav>
-
+    </div>
 </header>
 <body>
-    
-<div class="contenedor">
-    
+    <div class="contenedor">
     <section class="main">
-        
-            <div>
+            <div class="bio">
                 <h2>Biografía</h2>
                 <img src="img/bio.PNG" alt="Bio">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deleniti recusandae amet. Ipsum, repellendus dicta? Obcaecati, reprehenderit suscipit, necessitatibus voluptate perspiciatis esse est dolorem soluta eum culpa quidem quasi accusamus?</p>
-              </div>
+                <article>Nací en Cartago, estudie geografía, soy mamá de una niña de 11 años, me gusta la naturaleza, los deportes y viajar. 
+                    Me dedico a la consultoría de Sistemas de Informacion Geográfica.</article>
+                <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet asperiores sapiente quis tempora pariatur soluta distinctio dolorem itaque commodi ut veniam cum, eveniet quae corporis nisi recusandae? Aut, architecto hic.</article>
+            </div>
+            
+        <div id="operacionesContenedor">
+            <h3>"No rendirse es la clave del exito"</h3>
+            <article id="bio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, officiis animi soluta vitae cum culpa magni accusantium? Laboriosam, molestias nostrum illo aspernatur nam dignissimos sed deleniti porro architecto omnis non facere recusandae. Mollitia fuga repellendus quas optio officia a id nihil pariatur. Pariatur obcaecati nulla porro eum. Veritatis eius autem aut ad voluptatum aperiam et suscipit cum, sed, laudantium hic unde. Ipsum pariatur placeat inventore maxime nobis error consequatur, suscipit dolor repudiandae sunt eum aut molestias cupiditate! Explicabo labore, aspernatur minus neque repellendus praesentium culpa accusamus tempora provident, aliquid veniam quibusdam, quod nobis perferendis blanditiis? Non dignissimos atque veritatis sed ipsam repudiandae laboriosam, ex aut consequatur illum veniam corporis eligendi nisi hic consequuntur voluptate ad maxime. Dolorem assumenda laudantium dicta quae non quas quos sapiente qui quibusdam aperiam, adipisci porro libero tempore. Iste temporibus ex nam, optio pariatur odio rerum, quam dolorem voluptate provident sed ipsum? Dolore voluptates numquam nobis perspiciatis tenetur labore excepturi vel eligendi deleniti libero animi qui praesentium, quia veritatis nam voluptas aspernatur at ipsa repellendus magnam unde accusamus eum similique consectetur. Fugit beatae reiciendis quam maiores, commodi eveniet dolore. Consectetur porro eius enim autem rem! At, assumenda consectetur! Voluptas error ipsam ad, voluptates atque a vitae. </article>
+        </div>
+          <h1>No rendirse es la clave del éxito</h1>
 
+          <div id="div1">
+          <button onclick="showFunction('div2','div1')">Leer más</button></div>
+          <div id="div2" style="display:none">
+          
+          <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quisquam, odit distinctio ipsum numquam ratione! Sit ea eligendi eaque, quam nulla tempora. Earum mollitia consequatur recusandae architecto ea velit eius dignissimos ad optio! Nisi id in possimus ipsam tempore illo, necessitatibus voluptatum quisquam nemo iusto rerum labore pariatur doloribus adipisci? Minus quos necessitatibus excepturi dignissimos dicta placeat inventore saepe praesentium tempore. Eaque natus est ullam ut, nam architecto asperiores fugit veritatis a pariatur et quisquam cumque laudantium molestias minima delectus id nisi provident temporibus enim reiciendis quibusdam dolorem. Maxime eveniet, dolorum illo facere excepturi libero perferendis saepe laboriosam eos quaerat eius quas quibusdam amet obcaecati minus modi magnam ipsum vitae. Tempora aliquid, aliquam, dignissimos eligendi illo, distinctio earum hic adipisci qui possimus corrupti autem atque neque quod quasi odio? Pariatur illo eveniet, fugiat magni eligendi sit cumque alias sequi voluptatibus atque, corporis sed inventore minus quisquam exercitationem voluptatum ratione animi aliquid suscipit ducimus mollitia ex quos ab. Molestiae libero, eum dolores sed, maxime autem est nam velit delectus et nisi facere quasi laboriosam modi dolore amet aut incidunt enim ut repellat maiores optio quia ea itaque? Obcaecati dolore totam pariatur iste provident tempora culpa, odit eos at voluptates tempore autem?</p>
+          
+          <button onclick="showFunction('div1','div2')">Leer menos</button></div>
     </section>
-    <aside class="lateral">
-        <h3>Lo que he aprendido en la pandemia</h3>
-
-    </aside>
-</div>
+    </div>
 </body>
 <footer>
     <div id="circle">
