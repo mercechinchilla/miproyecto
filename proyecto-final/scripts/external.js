@@ -4,5 +4,3 @@ function showFunction(diva, divb) {
           x.style.display = 'block';
           y.style.display = 'none';
 }
-
-

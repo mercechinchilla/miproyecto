@@ -9,6 +9,8 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src=scripts/external.js></script>
 	<script src="scripts/main.js"></script>
+    <script src="scripts/scripts.js"></script>
+    
 </head>
 <header>
     <div class="contendor">
@@ -26,39 +28,42 @@
     </div>
 </header>
 <body>
-    <div class="contenedor">
-        <section class="main">
-            <h2>Galería</h2>
-            <div>
-            <button class=>Chill</button>
-            <button>Pasatiempos</button>
-            <button>Paseos</button>
-                <div class="viajes">
-                    <img src="img/hobbies/1.PNG" alt="galeria1" class="imagen" data="img/large/1.jpg">
-                    <img src="img/hobbies/2.PNG" alt="galeria2" class="imagen" data="img/large/2.jpg">
-                    <img src="img/hobbies/3.PNG" alt="galeria3" class="imagen" data="img/large/3.jpg">
-                </div>
-                <div class="hobby">
-                    <img src="img/hobbies/4.PNG" alt="galeria3" class="imagen" data="img/large/4.jpg">
-                    <img src="img/hobbies/5.PNG" alt="galeria4" class="imagen" data="img/large/1.jpg">
-                    <img src="img/hobbies/6.PNG" alt="galeria5" class="imagen" data="img/large/2.jpg">
-                </div>
-                    <div class="chill">
-                    <img src="img/hobbies/7.PNG" alt="galeria6" class="imagen" data="img/large/3.jpg">
-                    <img src="img/hobbies/8.PNG" alt="galeria7" class="imagen" data="img/large/4.jpg">
-                    <img src="img/hobbies/9.PNG" alt="galeria8" class="imagen" data="img/large/4.jpg">
-            </section>
-        </section>
+    <div id="App">
+        <button id='cate1Btn' onclick="toggleCategory('cate1')">Paseos</button>
+        <button id='cate2Btn' onclick="toggleCategory('cate2')">Pasatiempos</button>
+        <button id='cate3Btn' onclick="toggleCategory('cate3')">Chill</button>
+        <div id="galery">
+            <div class="category" id="category1">
+                <h2>Paseos</h2>
+                <div class='category-img'><img src="img/hobbies/1.PNG" alt="galeria1" ></div>
+                <div class='category-img'><img src="img/hobbies/2.PNG" alt="galeria2" ></div>
+                <div class='category-img'><img src="img/hobbies/3.PNG" alt="galeria3" ></div>
+            </div>
+            <div class="category" id='category2'>
+                <h2>Pasatiempos</h2>
+                <div class='category-img'><img src="img/hobbies/4.PNG" alt="galeria4" ></div>
+                <div class='category-img'><img src="img/hobbies/5.PNG" alt="galeria5" ></div>
+                <div class='category-img'><img src="img/hobbies/8.PNG" alt="galeria6" ></div>
+            </div>
+            <div class="category" id='category3'>
+                <h2>Chill</h2>
+                <div class='category-img'><img src="img/hobbies/7.PNG" alt="galeria7" ></div>
+                <div class='category-img'><img src="img/hobbies/6.PNG" alt="galeria8" ></div>
+                <div class='category-img'><img src="img/hobbies/9.PNG" alt="galeria9" ></div>
+            </div>
+
+        </div>    
     </div>
+    
 </body>
 <footer>
     <div id="circle">
         <ul>
             <p>Realizado por Ana Mercedes Chinchilla</p>
-            <li><a class="t1" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
-            <li><a class="t2" href="https://www.instagram.com"><i class="fab fa-instagram"></i> </a></li>
-            <li><a class="t3" href="https://www.twitter.com"><i class="fab fa-twitter"></i> </a></li>
-            <li><a class="t4" href="https://www.linkedin.com"> <i class="fab fa-linkedin"></i> </a></li>
+            <li><a class="t1" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="t2" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a></li>
+            <li><a class="t3" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a></li>
+            <li><a class="t4" href="https://www.linkedin.com"target="_blank"> <i class="fab fa-linkedin"></i> </a></li>
 
         </ul>
     </div>

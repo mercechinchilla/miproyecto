@@ -34,9 +34,7 @@ body{
 }
 
 
-.contenedor1 p {
-	margin-bottom:40px;
-}
+
 .contenedor .logo img {
   width: 10px;
   float: left;
@@ -46,11 +44,10 @@ body{
 }
 header{
   width: 100%;
-  position: block;
+
   
 }
 .intro{
-  position: block;
   text-align: center;
   padding:10px;
 }
@@ -101,30 +98,12 @@ nav ul li a:hover {
   }
 
 
-.viajes img{
-    /*display: block;*/
-  position: inline;
-  width: 18%;
-}
-
-.hobby img{
-  /*display: block;*/
-  position: inline;
-  width: 18%;
-}
-
-.chill img{
-    /*display: block;*/
-  position: inline;
-  width: 18%;
-}
-
-
 .imagen video {
    display: block;
    width: 90%;
    margin-right: auto;
    margin-left: auto;
+   
 }
 
 
@@ -207,4 +186,45 @@ footer ul li a {
               {
                 display:none;}       
 
-          
+.category> .category-img{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.category-img img{
+  width: 200px;
+}
+
+#category2, 
+#category3{
+  display: none;
+}
+#category1 .category-img{
+  background: green;
+}
+
+#category2 .category-img{
+  background: blue;
+}
+
+#category3 .category-img{
+  background: red;
+
+}
+
+.category-img:hover{
+  transform: scale(1.4);
+}
+
+
+button{
+  background: grey;
+}
+button:hover{
+  background: #fff;
+}
+button#cate1Btn{
+  background: honeydew;
+}
