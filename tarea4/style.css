@@ -111,3 +111,9 @@ ul{
 .area{
   padding: 10px;
 }
+#toggleBloque{
+  display: block;
+}
+#operacionesContenedor{
+  display: none;
+}
